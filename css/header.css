@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script&display=swap");
+header a,
+header a:visited,
+header a:hover {
+  color: #262626;
+  text-decoration: none;
+}
 .header {
   width: 100%;
   height: 10.5%;
@@ -12,6 +18,7 @@
 }
 
 .header_column-left,
+.header_column-left a,
 .header_column-right {
   display: flex;
 }
